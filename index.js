@@ -380,19 +380,25 @@ const chromafi = (value, opts) => {
     const indentStart = true
     value = syntaxHlStr('javascript', value, opts, indentStart)
     value = stripIndent(value)
-    value = decorate(value, opts)
+    if (!opts || false !== opts.decorate) {
+      value = decorate(value, opts)
+    }
     return value
   }
 
   if (typeof value === 'string') {
     value = syntaxHlStr(opts.lang, value, opts)
-    value = decorate(value, opts)
+    if (!opts || false !== opts.decorate) {
+      value = decorate(value, opts)
+    }
     return value
   }
 
   if (typeof value === 'object') {
     value = syntaxHlJson(value, opts)
-    value = decorate(value, opts)
+    if (!opts || false !== opts.decorate) {
+      value = decorate(value, opts)
+    }
     return value
   }
 
