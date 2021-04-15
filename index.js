@@ -137,7 +137,7 @@ const syntaxHlStr = (lang, script, opts, indentStart) => {
     script = indentStr + script
   }
 
-  const code = hljs.highlight(lang, script).value
+  const code = hljs.highlight(script, { language: lang }).value
   const lines = code.split('\n')
 
   lines.forEach((line, lineNumber) => {
