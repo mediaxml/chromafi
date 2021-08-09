@@ -24,7 +24,7 @@
     "strip-indent": "^3.0.0"
   },
   "devDependencies": {
-    "@12core/eslint-config-12core": "^4.0.2",
+    "@12core/eslint-config-12core": "^5.0.0",
     "auto-changelog": "^2.2.0",
     "ava": "^3.15.0",
     "eslint": "^7.24.0",
