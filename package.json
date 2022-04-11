@@ -26,7 +26,7 @@
   "devDependencies": {
     "@12core/eslint-config-12core": "^5.0.0",
     "auto-changelog": "^2.2.0",
-    "ava": "^3.15.0",
+    "ava": "^4.2.0",
     "eslint": "^7.24.0",
     "gh-release": "^6.0.0",
     "npm-run-all2": "^5.0.0"
