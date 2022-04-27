@@ -1,5 +1,5 @@
 {
-  "name": "@12core/chromafi",
+  "name": "@mediaxml/chromafi",
   "version": "3.0.4",
   "description": "🦅  cli syntax highlighting: any function - any object - 176 languages",
   "main": "index.js",
@@ -13,7 +13,6 @@
     "url": "git@github.com:little-core-labs/chromafi.git"
   },
   "dependencies": {
-    "ansi-mark": "^1.0.0",
     "camelcase": "^6.2.0",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.6",

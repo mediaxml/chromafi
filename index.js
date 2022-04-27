@@ -4,7 +4,6 @@ const camelCase = require('camelcase')
 const chalk = require('chalk')
 const stripAnsi = require('strip-ansi')
 const merge = require('deepmerge')
-const ansiMark = require('ansi-mark')
 const stripIndent = require('strip-indent')
 const detectIndent = require('detect-indent')
 
@@ -326,10 +325,6 @@ const cropPadAndNumber = (text, opts) => {
 }
 
 const decorate = (ansiStr, opts) => {
-  if (opts.highlight) {
-    ansiStr = ansiMark(ansiStr, opts.highlight)
-  }
-
   ansiStr = cropPadAndNumber(ansiStr, opts)
   return ansiStr
 }
