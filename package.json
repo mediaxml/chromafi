@@ -1,6 +1,6 @@
 {
   "name": "@mediaxml/chromafi",
-  "version": "3.0.4",
+  "version": "3.1.0",
   "description": "🦅  cli syntax highlighting: any function - any object - 176 languages",
   "main": "index.js",
   "scripts": {
