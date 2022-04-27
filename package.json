@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint --ext .js . && ava",
-    "prepublishOnly": "git push --follow-tags && gh-release -y",
     "version": "auto-changelog -p --template keepachangelog auto-changelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md"
   },
   "repository": {
